@@ -1,0 +1,110 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../polls/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../surveys/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../surveys/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+AppConfig	../polls/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../surveys/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Choice	../polls/models.py	/^class Choice(models.Model):$/;"	kind:class	line:19
+Choice	../polls/views.py	/^from .models import Choice, Question$/;"	kind:namespace	line:6
+DATABASES	../surveys/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	../surveys/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DetailView	../polls/views.py	/^class DetailView(generic.DetailView):$/;"	kind:class	line:17
+HttpResponseRedirect	../polls/views.py	/^from django.http import HttpResponseRedirect$/;"	kind:namespace	line:1
+INSTALLED_APPS	../surveys/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+IndexView	../polls/views.py	/^class IndexView(generic.ListView):$/;"	kind:class	line:9
+LANGUAGE_CODE	../surveys/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+MIDDLEWARE	../surveys/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+Migration	../polls/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+PollsConfig	../polls/apps.py	/^class PollsConfig(AppConfig):$/;"	kind:class	line:4
+Question	../polls/admin.py	/^from .models import Question$/;"	kind:namespace	line:2
+Question	../polls/models.py	/^class Question(models.Model):$/;"	kind:class	line:7
+Question	../polls/views.py	/^from .models import Choice, Question$/;"	kind:namespace	line:6
+ROOT_URLCONF	../surveys/settings.py	/^ROOT_URLCONF = 'surveys.urls'$/;"	kind:variable	line:53
+ResultsView	../polls/views.py	/^class ResultsView(generic.DetailView):$/;"	kind:class	line:21
+STATIC_URL	../surveys/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+TEMPLATES	../surveys/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../surveys/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
+TestCase	../polls/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../surveys/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	../surveys/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	../surveys/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+WSGI_APPLICATION	../surveys/settings.py	/^WSGI_APPLICATION = 'surveys.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	../polls/__init__.py	1;"	kind:file	line:1
+__init__.py	../polls/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../surveys/__init__.py	1;"	kind:file	line:1
+__str__	../polls/models.py	/^    def __str__(self):$/;"	kind:member	line:11
+__str__	../polls/models.py	/^    def __str__(self):$/;"	kind:member	line:24
+admin	../polls/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../surveys/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:16
+admin.py	../polls/admin.py	1;"	kind:file	line:1
+app_name	../polls/urls.py	/^app_name = 'polls'$/;"	kind:variable	line:5
+application	../surveys/asgi.py	/^application = get_asgi_application()$/;"	kind:variable	line:16
+application	../surveys/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../polls/apps.py	1;"	kind:file	line:1
+asgi.py	../surveys/asgi.py	1;"	kind:file	line:1
+choice_text	../polls/models.py	/^    choice_text = models.CharField(max_length=200)$/;"	kind:variable	line:21
+context_object_name	../polls/views.py	/^    context_object_name = 'latest_question_list'$/;"	kind:variable	line:11
+datetime	../polls/models.py	/^import datetime$/;"	kind:namespace	line:1
+db	../polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:4
+deletion	../polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:4
+dependencies	../polls/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:11
+detail	../polls/views.py	/^def detail(request, question_id):$/;"	kind:function	line:33
+django	../polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:4
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:10
+fields	../polls/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:17
+fields	../polls/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:25
+generic	../polls/views.py	/^from django.views import generic$/;"	kind:namespace	line:4
+get_asgi_application	../surveys/asgi.py	/^from django.core.asgi import get_asgi_application$/;"	kind:namespace	line:12
+get_object_or_404	../polls/views.py	/^from django.shortcuts import get_object_or_404, render$/;"	kind:namespace	line:2
+get_queryset	../polls/views.py	/^    def get_queryset(self):$/;"	kind:member	line:13
+get_wsgi_application	../surveys/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+include	../surveys/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:17
+index	../polls/views.py	/^def index(request):$/;"	kind:function	line:25
+initial	../polls/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:9
+main	../manage.py	/^def main():$/;"	kind:function	line:7
+manage.py	../manage.py	1;"	kind:file	line:1
+migrations	../polls/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+model	../polls/views.py	/^    model = Question$/;"	kind:variable	line:18
+model	../polls/views.py	/^    model = Question$/;"	kind:variable	line:22
+models	../polls/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+models	../polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:4
+models	../polls/models.py	/^from django.db import models$/;"	kind:namespace	line:3
+models.py	../polls/models.py	1;"	kind:file	line:1
+name	../polls/apps.py	/^    name = 'polls'$/;"	kind:variable	line:5
+name	../polls/migrations/0001_initial.py	/^            name='Choice',$/;"	kind:variable	line:24
+name	../polls/migrations/0001_initial.py	/^            name='Question',$/;"	kind:variable	line:16
+operations	../polls/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:14
+os	../manage.py	/^import os$/;"	kind:namespace	line:3
+os	../surveys/asgi.py	/^import os$/;"	kind:namespace	line:10
+os	../surveys/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../surveys/wsgi.py	/^import os$/;"	kind:namespace	line:10
+path	../polls/urls.py	/^from django.urls import path$/;"	kind:namespace	line:1
+path	../surveys/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:17
+pub_date	../polls/models.py	/^    pub_date = models.DateTimeField('date published')$/;"	kind:variable	line:9
+question	../polls/models.py	/^    question = models.ForeignKey(Question, on_delete=models.CASCADE)$/;"	kind:variable	line:20
+question_text	../polls/models.py	/^    question_text = models.CharField(max_length=200)$/;"	kind:variable	line:8
+render	../polls/views.py	/^from django.shortcuts import get_object_or_404, render$/;"	kind:namespace	line:2
+results	../polls/views.py	/^def results(request, question_id):$/;"	kind:function	line:38
+reverse	../polls/views.py	/^from django.urls import reverse$/;"	kind:namespace	line:3
+settings.py	../surveys/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:4
+template_name	../polls/views.py	/^    template_name = 'polls\/detail.html'$/;"	kind:variable	line:19
+template_name	../polls/views.py	/^    template_name = 'polls\/index.html'$/;"	kind:variable	line:10
+template_name	../polls/views.py	/^    template_name = 'polls\/results.html'$/;"	kind:variable	line:23
+tests.py	../polls/tests.py	1;"	kind:file	line:1
+timezone	../polls/models.py	/^from django.utils import timezone$/;"	kind:namespace	line:4
+urlpatterns	../polls/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urlpatterns	../surveys/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../polls/urls.py	1;"	kind:file	line:1
+urls.py	../surveys/urls.py	1;"	kind:file	line:1
+views	../polls/urls.py	/^from . import views$/;"	kind:namespace	line:3
+views.py	../polls/views.py	1;"	kind:file	line:1
+vote	../polls/views.py	/^def vote(request, question_id):$/;"	kind:function	line:42
+votes	../polls/models.py	/^    votes = models.IntegerField(default=0)$/;"	kind:variable	line:22
+was_published_recently	../polls/models.py	/^    def was_published_recently(self):$/;"	kind:member	line:14
+wsgi.py	../surveys/wsgi.py	1;"	kind:file	line:1
